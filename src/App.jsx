@@ -12,8 +12,10 @@ const App = () =>{
 
 setInterval(UpdateTime)
   return (
-    <div className="min-h-screen flex justify-center items-center text-6xl bg-black ">
-      <h1 className="bg-white px-10 py-4 rounded-md hover:bg-red-400 duration-1000 ">{time}</h1>
+    <div className="container">
+      <h1 className="title">Everthing</h1>
+      <h1 className="time ">{time}</h1>
+      <h1 className="title">has its time</h1>
     </div>
   )
 
